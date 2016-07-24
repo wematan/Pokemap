@@ -260,7 +260,7 @@ public class MapWrapperFragment extends Fragment implements OnMapReadyCallback,
             userSelectedPositionCircle.remove();
         }
 
-        double radiusInMeters = 100.0;
+        double radiusInMeters = 1000.0;
         int strokeColor = 0xff3399FF; // outline
         int shadeColor = 0x4400CCFF; // fill
 
